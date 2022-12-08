@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Data size is in KB-->
+<!-- Latency & Computing Time are in ms-->
+
+<serversTaskSeq>
+	<!-- Cloud -->
+	<taskSeq>
+		<task>
+			<dataToProcess>200</dataToProcess>
+			<arrivalTime>0</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0</waitTime>
+			<uploadStartTime>0</uploadStartTime>
+			<computingStartTime>0.6</computingStartTime>
+		</task>		<task>
+			<dataToProcess>500</dataToProcess>
+			<arrivalTime>1</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0</waitTime>
+			<uploadStartTime>1</uploadStartTime>
+			<computingStartTime>1.6</computingStartTime>
+		</task>
+		<task>
+			<dataToProcess>300</dataToProcess>
+			<arrivalTime>1.3</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0.3</waitTime>
+			<uploadStartTime>1.6</uploadStartTime>
+			<computingStartTime>2.2</computingStartTime>
+		</task>
+	</taskSeq>
+	<!-- Edge 1 -->
+	<taskSeq>
+		<task>
+			<dataToProcess>400</dataToProcess>
+			<arrivalTime>0.1</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0</waitTime>
+			<uploadStartTime>0.1</uploadStartTime>
+			<computingStartTime>0.4</computingStartTime>
+		</task>
+		<task>
+			<dataToProcess>200</dataToProcess>
+			<arrivalTime>0.3</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0.1</waitTime>
+			<uploadStartTime>0.4</uploadStartTime>
+			<computingStartTime>0.7</computingStartTime>
+		</task>
+	</taskSeq>	
+	<!-- Edge 2 -->
+	<taskSeq>
+		<task>
+			<dataToProcess>600</dataToProcess>
+			<arrivalTime>0.2</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0</waitTime>
+			<uploadStartTime>0.2</uploadStartTime>
+			<computingStartTime>0.6</computingStartTime>
+		</task>
+		<task>
+			<dataToProcess>300</dataToProcess>
+			<arrivalTime>0.6</arrivalTime>
+			<deadline>3</deadline>
+			<waitTime>0</waitTime>
+			<uploadStartTime>0.6</uploadStartTime>
+			<computingStartTime>1</computingStartTime>
+		</task>
+	</taskSeq>
+</serversTaskSeq>

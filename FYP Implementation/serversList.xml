@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<serversList>
+	<server>
+		<name>Cloud</name>
+		<uploadSpeed>0.6</uploadSpeed>
+		<downloadSpeed>0.6</downloadSpeed>
+		<serverComputingSpeed>0</serverComputingSpeed>
+	</server>
+	<server>
+		<name>Edge 1</name>
+		<uploadSpeed>450</uploadSpeed>
+		<downloadSpeed>0.1</downloadSpeed>
+		<serverComputingSpeed>400</serverComputingSpeed>
+	</server>
+	<server>
+		<name>Edge 2</name>
+		<uploadSpeed>300</uploadSpeed>
+		<downloadSpeed>0.2</downloadSpeed>
+		<serverComputingSpeed>500</serverComputingSpeed>
+	</server>
+</serversList>

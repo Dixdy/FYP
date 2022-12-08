@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tasks>
+	<task>
+		<dataToProcess>300</dataToProcess>
+		<arrivalTime>0.4</arrivalTime>
+		<deadline>3</deadline>
+	</task>
+	<task>
+		<dataToProcess>600</dataToProcess>
+		<arrivalTime>0.3</arrivalTime>
+		<deadline>3</deadline>
+	</task>
+	<task>
+		<dataToProcess>800</dataToProcess>
+		<arrivalTime>0.2</arrivalTime>
+		<deadline>3</deadline>
+	</task>
+	<task>
+		<dataToProcess>500</dataToProcess>
+		<arrivalTime>0.1</arrivalTime>
+		<deadline>3</deadline>
+	</task>
+	<task>
+		<dataToProcess>300</dataToProcess>
+		<arrivalTime>0.3</arrivalTime>
+		<deadline>3</deadline>
+	</task>
+	<task>
+		<dataToProcess>700</dataToProcess>
+		<arrivalTime>0.5</arrivalTime>
+		<deadline>3</deadline>
+	</task>
+</tasks>
