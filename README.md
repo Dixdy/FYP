@@ -1,5 +1,5 @@
 # FYP
-Centralised Cloud Implementation
+Centralised Cloud Implementation based on DEDAS
 
 FYP Implementation Folder contains the Java implementation of the project.
 - 3 xml files which can be configured to adjust for the experiment
